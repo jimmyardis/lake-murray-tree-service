@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tree Trimming &amp; Pruning in the Lake Murray Area, SC | Lake Murray Tree Service</title>
+<meta name="description" content="Expert tree trimming and pruning near Lake Murray, SC. Crown thinning, deadwooding, clearance pruning, and canopy shaping that protects tree health and your home. Free quotes.">
+<link rel="canonical" href="https://lakemurraytreeservice.com/tree-trimming.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#16352a">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Lake Murray Tree Service">
+<meta property="og:title" content="Tree Trimming &amp; Pruning in the Lake Murray Area, SC | Lake Murray Tree Service">
+<meta property="og:description" content="Expert tree trimming and pruning near Lake Murray, SC. Crown thinning, deadwooding, clearance pruning, and canopy shaping that protects tree health and your home. Free quotes.">
+<meta property="og:url" content="https://lakemurraytreeservice.com/tree-trimming.html">
+<meta property="og:image" content="https://lakemurraytreeservice.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tree Trimming &amp; Pruning in the Lake Murray Area, SC | Lake Murray Tree Service">
+<meta name="twitter:description" content="Expert tree trimming and pruning near Lake Murray, SC. Crown thinning, deadwooding, clearance pruning, and canopy shaping that protects tree health and your home. Free quotes.">
+<meta name="twitter:image" content="https://lakemurraytreeservice.com/assets/og-image.png">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+<style>/* ==========================================================================
+   Lake Murray Tree Service — stylesheet
+   Design system: "Southern canopy"
+   Palette:  pine #16352A · heartwood #7A4E2D · sap-gold #E0A32E
+             stone #F5F2EA · sage #E4EADE · ink #1C201B
+   Display: Zilla Slab (web font, headings only)   Body: system stack (fast)
+   ========================================================================== */
+
+:root {
+  --pine:        #16352a;
+  --pine-deep:   #0f271e;
+  --pine-mid:    #2c5545;
+  --heartwood:   #7a4e2d;
+  --sap:         #e0a32e;
+  --sap-deep:    #c9871a;
+  --stone:       #f5f2ea;
+  --stone-warm:  #efeadd;
+  --sage:        #e4eade;
+  --ink:         #1c201b;
+  --ink-soft:    #43493f;
+  --line:        #d9d3c4;
+  --white:       #ffffff;
+
+  --font-display: "Zilla Slab", Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --wrap: 1140px;
+  --gap: clamp(1rem, 3vw, 2rem);
+  --radius: 12px;
+  --radius-lg: 20px;
+  --shadow: 0 1px 2px rgba(15,39,30,.06), 0 8px 24px rgba(15,39,30,.08);
+  --shadow-lg: 0 18px 48px rgba(15,39,30,.16);
+  --ring: 0 0 0 3px rgba(224,163,46,.55);
+}
+
+/* ---------- reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+}
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--stone);
+  line-height: 1.62;
+  font-size: 1.02rem;
+  -webkit-font-smoothing: antialiased;
+}
+img, svg { max-width: 100%; height: auto; display: block; }
+a { color: var(--pine-mid); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--pine); }
+h1, h2, h3, h4 { font-family: var(--font-display); line-height: 1.1; color: var(--pine); font-weight: 700; margin: 0 0 .5em; letter-spacing: -.01em; }
+h1 { font-size: clamp(2.1rem, 5.2vw, 3.5rem); }
+h2 { font-size: clamp(1.7rem, 4vw, 2.5rem); }
+h3 { font-size: clamp(1.2rem, 2.4vw, 1.5rem); }
+p { margin: 0 0 1rem; }
+:focus-visible { outline: none; box-shadow: var(--ring); border-radius: 6px; }
+
+/* ---------- layout ---------- */
+.wrap { width: min(var(--wrap), 100% - 2.4rem); margin-inline: auto; }
+.section { padding: clamp(3rem, 7vw, 5.5rem) 0; }
+.section--tight { padding: clamp(2rem, 5vw, 3.5rem) 0; }
+.eyebrow {
+  font-family: var(--font-body); font-weight: 700; text-transform: uppercase;
+  letter-spacing: .14em; font-size: .78rem; color: var(--heartwood); margin: 0 0 .6rem;
+}
+.lede { font-size: clamp(1.05rem, 1.6vw, 1.22rem); color: var(--ink-soft); max-width: 60ch; }
+.center { text-align: center; margin-inline: auto; }
+
+/* ---------- buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-family: var(--font-body); font-weight: 700; font-size: 1rem;
+  padding: .85rem 1.5rem; border-radius: 999px; border: 2px solid transparent;
+  cursor: pointer; text-decoration: none; transition: transform .12s ease, background .2s ease, box-shadow .2s ease;
+  line-height: 1;
+}
+.btn:active { transform: translateY(1px); }
+.btn--call { background: var(--sap); color: var(--pine-deep); box-shadow: 0 6px 18px rgba(224,163,46,.35); }
+.btn--call:hover { background: var(--sap-deep); color: var(--pine-deep); }
+.btn--quote { background: var(--pine); color: var(--white); }
+.btn--quote:hover { background: var(--pine-deep); color: var(--white); }
+.btn--ghost { background: transparent; color: var(--pine); border-color: var(--pine); }
+.btn--ghost:hover { background: var(--pine); color: var(--white); }
+.btn--lg { padding: 1.05rem 1.9rem; font-size: 1.08rem; }
+.btn-row { display: flex; flex-wrap: wrap; gap: .8rem; }
+
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(245,242,234,.92); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+}
+.header-inner { display: flex; align-items: center; gap: 1rem; min-height: 66px; }
+.brand { display: flex; align-items: center; gap: .6rem; text-decoration: none; margin-right: auto; }
+.brand svg { width: 34px; height: 34px; }
+.brand-name { font-family: var(--font-display); font-weight: 700; font-size: 1.18rem; color: var(--pine); line-height: 1; }
+.brand-name span { display: block; font-family: var(--font-body); font-weight: 600; font-size: .66rem; letter-spacing: .12em; text-transform: uppercase; color: var(--heartwood); margin-top: 3px; }
+.nav { display: flex; align-items: center; gap: 1.35rem; }
+.nav a { color: var(--pine); text-decoration: none; font-weight: 600; font-size: .96rem; }
+.nav a:hover { color: var(--heartwood); }
+.header-cta { display: flex; align-items: center; gap: .6rem; }
+.header-phone { font-family: var(--font-display); font-weight: 700; color: var(--pine); text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.nav-toggle { display: none; background: none; border: 0; padding: .4rem; cursor: pointer; color: var(--pine); }
+.nav-toggle svg { width: 28px; height: 28px; }
+
+@media (max-width: 860px) {
+  .nav-toggle { display: inline-flex; }
+  .nav {
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; align-items: stretch; gap: 0;
+    background: var(--stone); border-bottom: 1px solid var(--line);
+    padding: .5rem 1.2rem 1rem; box-shadow: var(--shadow);
+    display: none;
+  }
+  .nav[data-open="true"] { display: flex; }
+  .nav a { padding: .8rem .2rem; border-bottom: 1px solid var(--line); }
+  .header-phone { display: none; }
+}
+
+/* ---------- hero ---------- */
+.hero { position: relative; background: var(--pine); color: #eef1e9; overflow: hidden; }
+.hero::after {
+  /* subtle topographic contour rings, drawn in CSS — evokes lake depth lines */
+  content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .12;
+  background:
+    radial-gradient(120% 90% at 82% -10%, transparent 38%, rgba(224,163,46,.9) 39%, transparent 41%),
+    radial-gradient(120% 90% at 82% -10%, transparent 52%, rgba(228,234,222,.7) 53%, transparent 55%),
+    radial-gradient(120% 90% at 82% -10%, transparent 66%, rgba(228,234,222,.5) 67%, transparent 69%);
+}
+.hero-inner { position: relative; z-index: 2; padding: clamp(3rem, 8vw, 6rem) 0 0; }
+.hero h1 { color: var(--white); max-width: 16ch; }
+.hero .lede { color: #d7ded0; max-width: 52ch; }
+.hero .eyebrow { color: var(--sap); }
+.hero .btn-row { margin-top: 1.6rem; }
+.hero .btn--ghost { color: #eef1e9; border-color: rgba(238,241,233,.5); }
+.hero .btn--ghost:hover { background: #eef1e9; color: var(--pine); }
+.trust-strip { display: flex; flex-wrap: wrap; gap: .6rem 1.4rem; margin-top: 1.8rem; padding-bottom: 2.5rem; }
+.trust-chip { display: inline-flex; align-items: center; gap: .5rem; font-size: .92rem; font-weight: 600; color: #e7ecdf; }
+.trust-chip svg { width: 18px; height: 18px; color: var(--sap); flex: none; }
+
+/* signature: hand-built treeline silhouette */
+.treeline { display: block; width: 100%; height: auto; position: relative; z-index: 2; margin-bottom: -1px; color: var(--stone); }
+.treeline--flip { transform: scaleY(-1); color: var(--pine); }
+.divider-treeline { color: var(--sage); background: var(--stone); }
+
+/* ---------- service cards ---------- */
+.grid { display: grid; gap: 1.2rem; }
+.grid--services { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card {
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg);
+  padding: 1.5rem; box-shadow: var(--shadow); transition: transform .15s ease, box-shadow .2s ease;
+  display: flex; flex-direction: column;
+}
+a.card { text-decoration: none; color: inherit; }
+a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.card-icon { width: 46px; height: 46px; border-radius: 12px; background: var(--sage); color: var(--pine);
+  display: grid; place-items: center; margin-bottom: 1rem; }
+.card-icon svg { width: 26px; height: 26px; }
+.card h3 { margin-bottom: .35rem; }
+.card p { color: var(--ink-soft); font-size: .98rem; margin-bottom: .9rem; }
+.card .card-link { margin-top: auto; font-weight: 700; color: var(--heartwood); font-size: .95rem; }
+
+/* ---------- towns grid ---------- */
+.towns { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: .8rem; }
+.town {
+  background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1rem 1.1rem; text-decoration: none; color: var(--pine); font-weight: 700;
+  display: flex; align-items: center; justify-content: space-between; gap: .5rem; transition: background .15s ease;
+}
+.town:hover { background: var(--sage); }
+.town span { font-family: var(--font-body); font-weight: 500; color: var(--ink-soft); font-size: .82rem; }
+
+/* ---------- process ---------- */
+.steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 1.4rem; counter-reset: step; }
+.step { position: relative; padding-top: .5rem; }
+.step-num {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.1rem; color: var(--pine-deep);
+  width: 42px; height: 42px; border-radius: 50%; background: var(--sap); display: grid; place-items: center; margin-bottom: .8rem;
+}
+.step h3 { font-size: 1.15rem; }
+.step p { color: var(--ink-soft); font-size: .96rem; margin: 0; }
+
+/* ---------- alternating band ---------- */
+.band-sage { background: var(--sage); }
+.band-pine { background: var(--pine); color: #e7ecdf; }
+.band-pine h2, .band-pine h3 { color: var(--white); }
+.band-pine .lede { color: #cdd6c6; }
+
+/* feature list */
+.features { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.features li { display: flex; gap: .7rem; align-items: flex-start; }
+.features svg { width: 22px; height: 22px; color: var(--sap); flex: none; margin-top: 3px; }
+.features strong { display: block; color: var(--pine); }
+.band-pine .features strong { color: var(--white); }
+.features span { color: var(--ink-soft); font-size: .96rem; }
+.band-pine .features span { color: #cdd6c6; }
+
+/* ---------- FAQ (details/summary — no-JS, AEO-friendly) ---------- */
+.faq { max-width: 780px; margin-inline: auto; }
+.faq details { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); margin-bottom: .7rem; overflow: hidden; }
+.faq summary {
+  cursor: pointer; list-style: none; padding: 1.05rem 1.2rem; font-family: var(--font-display);
+  font-weight: 600; font-size: 1.08rem; color: var(--pine); display: flex; justify-content: space-between; gap: 1rem; align-items: center;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; font-size: 1.5rem; color: var(--heartwood); transition: transform .2s ease; line-height: 1; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq .faq-body { padding: 0 1.2rem 1.2rem; color: var(--ink-soft); }
+.faq .faq-body p { margin: 0; }
+
+/* ---------- testimonials ---------- */
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); gap: 1.2rem; }
+.quote { background: var(--white); border: 1px solid var(--line); border-left: 4px solid var(--sap); border-radius: var(--radius); padding: 1.4rem; }
+.quote p { font-style: italic; color: var(--ink); margin-bottom: .8rem; }
+.quote cite { font-style: normal; font-weight: 700; color: var(--pine); font-size: .95rem; }
+.quote cite span { display: block; font-weight: 500; color: var(--ink-soft); font-size: .85rem; }
+
+/* ---------- CTA band ---------- */
+.cta-band { text-align: center; }
+.cta-band h2 { color: var(--white); }
+.cta-band p { color: #d7ded0; max-width: 46ch; margin-inline: auto; }
+.cta-band .btn-row { justify-content: center; margin-top: 1.4rem; }
+
+/* ---------- quote form ---------- */
+.quote-form { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: clamp(1.4rem, 3vw, 2.2rem); box-shadow: var(--shadow); }
+.field { margin-bottom: 1rem; }
+.field label { display: block; font-weight: 700; color: var(--pine); margin-bottom: .35rem; font-size: .95rem; }
+.field input, .field select, .field textarea {
+  width: 100%; padding: .8rem .9rem; border: 1.5px solid var(--line); border-radius: 10px;
+  font: inherit; color: var(--ink); background: var(--stone); }
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--sap); background: var(--white); }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+@media (max-width: 520px) { .field-row { grid-template-columns: 1fr; } }
+.form-note { font-size: .85rem; color: var(--ink-soft); margin-top: .6rem; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem,4vw,3rem); align-items: start; }
+@media (max-width: 820px) { .two-col { grid-template-columns: 1fr; } }
+
+/* ---------- content prose (service/location body) ---------- */
+.prose { max-width: 72ch; }
+.prose h2 { margin-top: 2.2rem; }
+.prose h3 { margin-top: 1.6rem; }
+.prose ul { padding-left: 1.2rem; }
+.prose li { margin-bottom: .45rem; }
+.pricing-table { width: 100%; border-collapse: collapse; margin: 1.2rem 0; background: var(--white); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+.pricing-table th, .pricing-table td { text-align: left; padding: .8rem 1rem; border-bottom: 1px solid var(--line); }
+.pricing-table th { background: var(--sage); font-family: var(--font-display); color: var(--pine); }
+.pricing-table tr:last-child td { border-bottom: 0; }
+
+/* breadcrumb */
+.crumbs { font-size: .85rem; color: var(--ink-soft); padding-top: 1.2rem; }
+.crumbs a { color: var(--heartwood); text-decoration: none; }
+.crumbs a:hover { text-decoration: underline; }
+
+/* ---------- footer ---------- */
+.site-footer { background: var(--pine-deep); color: #b9c4b3; padding: clamp(2.5rem,5vw,4rem) 0 1.5rem; }
+.footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 2rem; }
+@media (max-width: 780px) { .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.6rem; } }
+@media (max-width: 460px) { .footer-grid { grid-template-columns: 1fr; } }
+.site-footer h4 { color: var(--white); font-size: 1rem; margin-bottom: .8rem; }
+.site-footer a { color: #cdd6c6; text-decoration: none; }
+.site-footer a:hover { color: var(--sap); }
+.footer-links { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; font-size: .95rem; }
+.footer-brand svg { width: 40px; height: 40px; margin-bottom: .6rem; }
+.footer-brand p { font-size: .92rem; max-width: 34ch; }
+.footer-phone { font-family: var(--font-display); font-size: 1.4rem; color: var(--white); text-decoration: none; display: inline-block; margin: .3rem 0; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.12); margin-top: 2.5rem; padding-top: 1.3rem; font-size: .82rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .6rem; }
+.footer-bottom p { margin: 0; }
+
+/* ---------- sticky mobile call bar ---------- */
+.mobile-callbar { display: none; }
+@media (max-width: 640px) {
+  .mobile-callbar {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
+    box-shadow: 0 -4px 16px rgba(15,39,30,.2);
+  }
+  .mobile-callbar a { display: flex; align-items: center; justify-content: center; gap: .5rem; padding: .95rem; font-weight: 700; text-decoration: none; font-size: 1rem; }
+  .mobile-callbar .mc-call { background: var(--sap); color: var(--pine-deep); }
+  .mobile-callbar .mc-quote { background: var(--pine); color: #fff; }
+  .mobile-callbar svg { width: 20px; height: 20px; }
+  body { padding-bottom: 56px; }
+}
+
+/* utilities */
+.mt-0 { margin-top: 0; }
+.stack > * + * { margin-top: 1rem; }
+.muted { color: var(--ink-soft); }
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["HomeAndConstructionBusiness","LocalBusiness"],"@id":"https://lakemurraytreeservice.com/#business","name":"Lake Murray Tree Service","url":"https://lakemurraytreeservice.com/","telephone":"+18035550142","email":"quotes@lakemurraytreeservice.com","image":"https://lakemurraytreeservice.com/assets/og-image.png","logo":"https://lakemurraytreeservice.com/assets/favicon.svg","priceRange":"$$","description":"Locally owned tree service serving the Lake Murray area of South Carolina \u2014 tree removal, trimming and pruning, stump grinding, and 24/7 storm-damage response.","address":{"@type":"PostalAddress","addressLocality":"Chapin","addressRegion":"SC","postalCode":"29036","addressCountry":"US"},"geo":{"@type":"GeoCoordinates","latitude":34.1662,"longitude":-81.3498},"areaServed":[{"@type":"City","name":"Chapin"},{"@type":"City","name":"Irmo"},{"@type":"City","name":"Lexington"},{"@type":"City","name":"Ballentine"},{"@type":"City","name":"Lake Murray"},{"@type":"City","name":"Dutch Fork"},{"@type":"City","name":"Prosperity"},{"@type":"City","name":"Gilbert"},{"@type":"City","name":"Columbia"}],"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"19:00"}],"knowsAbout":["tree removal","tree pruning","stump grinding","storm damage cleanup","hazardous tree assessment","lot clearing"]},{"@type":"WebSite","@id":"https://lakemurraytreeservice.com/#website","url":"https://lakemurraytreeservice.com/","name":"Lake Murray Tree Service","publisher":{"@id":"https://lakemurraytreeservice.com/#business"}}]}</script><script type="application/ld+json">{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://lakemurraytreeservice.com/"},{"@type":"ListItem","position":2,"name":"Tree Trimming & Pruning","item":"https://lakemurraytreeservice.com/tree-trimming.html"}],"@context":"https://schema.org"}</script><script type="application/ld+json">{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"When is the best time to prune trees in South Carolina?","acceptedAnswer":{"@type":"Answer","text":"Late winter to early spring \u2014 before spring growth \u2014 is ideal for most Midlands hardwoods, since it's easier to see structure and trees heal quickly. Dead, broken, or hazardous limbs, however, can and should be removed any time of year."}},{"@type":"Question","name":"How much does tree trimming cost?","acceptedAnswer":{"@type":"Answer","text":"Trimming a single tree typically runs about $150 to $700 in the Lake Murray area, depending on the tree's size, the amount of pruning, and access. We provide a free, firm quote after seeing the tree."}},{"@type":"Question","name":"Will pruning hurt my tree?","acceptedAnswer":{"@type":"Answer","text":"Not when it's done correctly. We follow proper pruning standards and never 'top' trees, because topping creates weak, hazard-prone regrowth. Correct thinning and deadwooding actually improve a tree's health and storm resistance."}},{"@type":"Question","name":"Can you trim limbs hanging over my roof?","acceptedAnswer":{"@type":"Answer","text":"Yes. Clearance pruning away from roofs, gutters, and chimneys is one of our most common jobs, and it helps prevent gutter clogs, roof damage, and pests reaching the house."}}],"@context":"https://schema.org"}</script><script type="application/ld+json">{"@type":"Service","name":"Tree Trimming & Pruning","serviceType":"Tree Trimming & Pruning","description":"Expert tree trimming and pruning near Lake Murray, SC. Crown thinning, deadwooding, clearance pruning, and canopy shaping that protects tree health and your home. Free quotes.","url":"https://lakemurraytreeservice.com/tree-trimming.html","provider":{"@id":"https://lakemurraytreeservice.com/#business"},"areaServed":[{"@type":"City","name":"Lake Murray"},{"@type":"City","name":"Chapin"},{"@type":"City","name":"Irmo"},{"@type":"City","name":"Lexington"},{"@type":"City","name":"Ballentine"}],"@context":"https://schema.org"}</script><script type="application/ld+json">{"@type":"WebPage","url":"https://lakemurraytreeservice.com/tree-trimming.html","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1",".speakable"]},"@context":"https://schema.org"}</script>
+</head>
+<body>
+<a class="skip-link" href="#main" style="position:absolute;left:-999px">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="Lake Murray Tree Service home">
+      <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#16352a"/><path d="M32 9 L42 25 H37 L45 39 H38 L47 52 H17 L26 39 H19 L27 25 H22 Z" fill="#e0a32e"/><rect x="29.5" y="50" width="5" height="7" rx="1" fill="#7a4e2d"/><path d="M6 57 q12 -5 26 0 t26 0" fill="none" stroke="#e4eade" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/></svg>
+      <span class="brand-name">Lake Murray Tree<span>Service &amp; Removal</span></span>
+    </a>
+    <nav class="nav" id="primary-nav" aria-label="Primary"><a href="tree-removal.html">Tree Removal</a><a href="tree-trimming.html">Trimming</a><a href="stump-grinding.html">Stump Grinding</a><a href="emergency-tree-service.html">Storm Damage</a><a href="index.html#areas">Service Areas</a><a href="contact.html">Contact</a></nav>
+    <div class="header-cta">
+      <a class="header-phone" href="tel:+18035550142">(803) 555-0142</a>
+      <a class="btn btn--call" href="tel:+18035550142"><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.1 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg> Call Now</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false"><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18M3 6h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-callbar">
+  <a class="mc-call" href="tel:+18035550142"><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.1 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg> Call</a>
+  <a class="mc-quote" href="contact.html"><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 4 13C4 8 10 4 20 4c0 8-4 16-9 16z"/><path d="M4 20c4-6 8-8 12-9"/></svg> Free Estimate</a>
+</div>
+<main id="main">
+<div class="wrap crumbs"><a href="index.html">Home</a> &rsaquo; <span>Tree Trimming & Pruning</span></div>
+<section class="section--tight">
+  <div class="wrap">
+    <p class="eyebrow">Tree Trimming & Pruning</p>
+    <h1>Tree Trimming & Pruning Near Lake Murray</h1>
+    <p class="lede speakable">Healthy cuts that reduce storm risk, open up your view, and keep your canopy strong.</p>
+    <div class="btn-row" style="margin-top:1.2rem">
+      <a class="btn btn--call" href="tel:+18035550142"><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.1 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg> Call (803) 555-0142</a>
+      <a class="btn btn--quote" href="contact.html">Get a Free Estimate</a>
+    </div>
+  </div>
+</section>
+<section class="section--tight">
+  <div class="wrap two-col">
+    <div class="prose">
+      <p>Good pruning is as much about what we leave as what we cut. Over-topped or 'hat-racked' trees grow back weaker and more storm-prone. Our crews prune to ISA-informed standards — thinning, deadwooding, and raising canopies in a way that keeps your oaks, pines, and crape myrtles healthy for years.</p><p>Whether you want to clear limbs off the roof, open a lake view, or reduce the sail that catches summer thunderstorm winds, we shape trees deliberately and clean up completely.</p>
+      <h2>What's included</h2>
+      <ul class="features"><li><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Crown thinning to reduce wind resistance and let light through</span></li><li><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Deadwood and hazard-limb removal</span></li><li><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Clearance pruning away from roofs, gutters, and driveways</span></li><li><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Canopy raising and view-enhancement pruning</span></li><li><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span>Young-tree structural pruning to build strong form</span></li></ul>
+    </div>
+    <div>
+      <div class="quote-form">
+        <h3 class="mt-0">What affects the price</h3>
+        <table class="pricing-table"><tr><td><strong>Tree size</strong></td><td>Larger canopies take more climbing and rigging time.</td></tr><tr><td><strong>Number of trees</strong></td><td>Pruning several trees in one visit lowers the per-tree cost.</td></tr><tr><td><strong>Pruning goal</strong></td><td>Light clearance costs less than a full crown restoration.</td></tr><tr><td><strong>Access</strong></td><td>Backyard and lakeside trees may need extra setup.</td></tr></table>
+        <p class="form-note">Every job is quoted after a free on-site look — you'll get a firm number before we start.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section band-sage">
+  <div class="wrap">
+    <p class="eyebrow center">Answers</p>
+    <h2 class="center">Tree service FAQs: Tree Trimming & Pruning</h2>
+    <div class="faq" style="margin-top:2rem"><details><summary>When is the best time to prune trees in South Carolina?</summary><div class="faq-body"><p>Late winter to early spring — before spring growth — is ideal for most Midlands hardwoods, since it's easier to see structure and trees heal quickly. Dead, broken, or hazardous limbs, however, can and should be removed any time of year.</p></div></details><details><summary>How much does tree trimming cost?</summary><div class="faq-body"><p>Trimming a single tree typically runs about $150 to $700 in the Lake Murray area, depending on the tree's size, the amount of pruning, and access. We provide a free, firm quote after seeing the tree.</p></div></details><details><summary>Will pruning hurt my tree?</summary><div class="faq-body"><p>Not when it's done correctly. We follow proper pruning standards and never 'top' trees, because topping creates weak, hazard-prone regrowth. Correct thinning and deadwooding actually improve a tree's health and storm resistance.</p></div></details><details><summary>Can you trim limbs hanging over my roof?</summary><div class="faq-body"><p>Yes. Clearance pruning away from roofs, gutters, and chimneys is one of our most common jobs, and it helps prevent gutter clogs, roof damage, and pests reaching the house.</p></div></details></div>
+  </div>
+</section>
+<section class="section band-pine cta-band">
+  <svg class="treeline treeline--flip" viewBox="0 0 1200 88" preserveAspectRatio="none" aria-hidden="true"><path d="M0,88 L0,74 L7,74 L23,36 L39,74 L51,74 L63,31 L75,74 L83,74 Q97,49 111,74 L120,74 L134,46 L148,74 L159,74 Q180,48 201,74 L212,74 L226,31 L240,74 L254,74 L272,30 L290,74 L303,74 L315,30 L327,74 L342,74 L349,10 L356,74 L374,74 L392,41 L410,74 L428,74 L435,24 L442,74 L457,74 Q475,46 493,74 L508,74 L515,19 L522,74 L538,74 L552,30 L566,74 L576,74 Q592,47 608,74 L622,74 L629,27 L636,74 L650,74 Q666,37 682,74 L691,74 Q709,36 727,74 L737,74 Q755,43 773,74 L784,74 L798,46 L812,74 L831,74 L841,13 L851,74 L869,74 Q887,41 905,74 L915,74 L927,32 L939,74 L952,74 L970,38 L988,74 L1000,74 Q1016,37 1032,74 L1041,74 L1053,31 L1065,74 L1075,74 Q1093,39 1111,74 L1131,74 L1142,14 L1153,74 L1173,74 L1185,40 L1197,74 L1200,74 L1200,88 Z" fill="currentColor"/></svg>
+  <div class="wrap">
+    <h2>Get your free tree estimate today</h2>
+    <p>Same-week estimates across the Lake Murray area. Call now or send a few details and we'll get right back to you.</p>
+    <div class="btn-row">
+      <a class="btn btn--call btn--lg" href="tel:+18035550142"><svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.1 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2z"/></svg> Call (803) 555-0142</a>
+      <a class="btn btn--ghost btn--lg" href="contact.html">Request a Free Estimate</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <svg width="40" height="40" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#16352a"/><path d="M32 9 L42 25 H37 L45 39 H38 L47 52 H17 L26 39 H19 L27 25 H22 Z" fill="#e0a32e"/><rect x="29.5" y="50" width="5" height="7" rx="1" fill="#7a4e2d"/><path d="M6 57 q12 -5 26 0 t26 0" fill="none" stroke="#e4eade" stroke-width="2.4" stroke-linecap="round" opacity="0.85"/></svg>
+      <h4>Lake Murray Tree Service</h4>
+      <p>Locally owned tree care for the Lake Murray area — removals, pruning, stump grinding, and storm response across the Dutch Fork and Midlands.</p>
+      <a class="footer-phone" href="tel:+18035550142">(803) 555-0142</a>
+    </div>
+    <div><h4>Services</h4><ul class="footer-links"><li><a href="tree-removal.html">Tree Removal</a></li><li><a href="tree-trimming.html">Tree Trimming & Pruning</a></li><li><a href="stump-grinding.html">Stump Grinding</a></li><li><a href="emergency-tree-service.html">Emergency / Storm Damage</a></li></ul></div>
+    <div><h4>Service Areas</h4><ul class="footer-links"><li><a href="chapin-tree-service.html">Chapin, SC</a></li><li><a href="irmo-tree-service.html">Irmo, SC</a></li><li><a href="lexington-tree-service.html">Lexington, SC</a></li><li><a href="ballentine-tree-service.html">Ballentine, SC</a></li></ul></div>
+    <div>
+      <h4>Get a Free Estimate</h4>
+      <ul class="footer-links">
+        <li><a href="contact.html">Request a quote</a></li>
+        <li><a href="mailto:quotes@lakemurraytreeservice.com">quotes@lakemurraytreeservice.com</a></li>
+        <li>Mon–Sat, 7am–7pm</li>
+        <li>24/7 emergency storm line</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; <span id="year">2026</span> Lake Murray Tree Service. Serving the Lake Murray area of South Carolina.</p>
+    <p>Licensed &amp; insured · Free estimates · Locally owned</p>
+  </div>
+</footer>
+<script>/* Lake Murray Tree Service — minimal progressive-enhancement JS */
+(function () {
+  "use strict";
+
+  // Mobile nav toggle
+  var toggle = document.querySelector(".nav-toggle");
+  var nav = document.getElementById("primary-nav");
+  if (toggle && nav) {
+    toggle.addEventListener("click", function () {
+      var open = nav.getAttribute("data-open") === "true";
+      nav.setAttribute("data-open", String(!open));
+      toggle.setAttribute("aria-expanded", String(!open));
+    });
+    nav.querySelectorAll("a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        nav.setAttribute("data-open", "false");
+        toggle.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  // Current year in footer
+  var y = document.getElementById("year");
+  if (y) { y.textContent = new Date().getFullYear(); }
+
+  /* Quote form — front-end stub.
+     Replace with your real handler: Formspree, Netlify Forms, Web3Forms,
+     or a POST to your CRM / call-tracking provider. See README. */
+  var form = document.getElementById("quote-form");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var status = document.getElementById("form-status");
+      if (status) {
+        status.textContent =
+          "Thanks — this demo form isn't wired to a mailbox yet. Connect it to Formspree or Netlify Forms (see README), then your request will land in your inbox.";
+        status.style.color = "#7a4e2d";
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>
