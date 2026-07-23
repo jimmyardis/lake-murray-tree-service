@@ -11,7 +11,7 @@ Emergency/Storm Damage, Chapin, Irmo, Lexington, Ballentine, Contact, About, 404
 
 ## ⚠️ Do these 3 things before you publish
 
-1. **Phone number.** Everything points at a placeholder `(803) 555-0142`. Replace it with your
+1. **Phone number.** Everything points at a placeholder `(803) 339-3059`. Replace it with your
    real number — ideally a **call-tracking number** (CallRail, etc.) so you can prove call
    volume when you rent the site to a tree company. Edit `SITE["phone_display"]` and
    `SITE["phone_tel"]` in `build.py`, then rerun `python3 build.py`.
